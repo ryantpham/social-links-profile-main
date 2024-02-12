@@ -1,0 +1,51 @@
+/*
+background color: Off Black: hsl(0, 0%, 8%);
+card color: hsl(0, 0%, 12%);
+button color: hsl(0, 0%, 20%);
+font-color: hsl(0, 0%, 100%)
+*/
+* {
+    font-family: Inter;
+    color:hsl(0, 0%, 100%);
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+.main {
+    text-align: center;
+    margin-bottom: 18px;
+}
+.name{
+    font-size: 36px;
+    font-weight: 600;
+}
+.location{
+    font-size: 16px;
+    font-weight: 9000;
+    color: hsl(75, 94%, 57%);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    padding: 60px 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.content > button {
+    background-color: hsl(0, 0%, 20%);
+}
