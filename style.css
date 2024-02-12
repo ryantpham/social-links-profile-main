@@ -15,6 +15,15 @@ body{
     text-align: center;
     margin-bottom: 18px;
 }
+
+.circular-image {
+    border-radius: 50%; /* Makes the image circular */
+    width: 100px;      /* Set the width as required */
+    height: 100px;     /* Set the height as required */
+    object-fit: cover; /* This makes sure the image covers the whole area and maintains aspect ratio */
+    margin-bottom: 20px;
+}
+
 .name{
     font-size: 36px;
     font-weight: 600;
@@ -31,21 +40,33 @@ body{
     align-items: center;
     background-color: hsl(0, 0%, 12%);
     border-radius: 10px;
-    padding: 60px 20px;
+    padding: 25px 20px;
 }
 
 .content {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 16px;
 }
 
 .box{
     display: flex;
     justify-content: center;
-    margin: 5%;
+    margin: 4.5%;
 }
 
 .content > button {
     background-color: hsl(0, 0%, 20%);
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    /* Add transitions for smooth color change */
+    transition: background-color 0.3s ease;
 }
+
+
+/* Style for the button when hovered */
+.content > button:hover {
+    background-color: hsl(76, 28%, 24%); /* Change this color as per your preference */
+}
+
