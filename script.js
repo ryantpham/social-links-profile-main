@@ -16,12 +16,12 @@ document.getElementById('instagramButton').addEventListener('mouseenter', functi
     this.textContent = 'Demo Only';
 });
 document.getElementById('instagramButton').addEventListener('mouseleave', function() {
-    this.textContent = 'Instagram';
+    this.textContent = 'Resume';
 });
 
 document.getElementById('twitterButton').addEventListener('mouseenter', function() {
     this.textContent = 'Demo Only';
 });
 document.getElementById('twitterButton').addEventListener('mouseleave', function() {
-    this.textContent = 'Twitter';
+    this.textContent = 'Portfolio';
 });
