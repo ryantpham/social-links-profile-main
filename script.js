@@ -3,7 +3,7 @@ document.getElementById('github').addEventListener('click', function() {
     });
 
 document.getElementById('linkedin').addEventListener('click', function() {
- window.open('https://www.linkedin.com/in/ryantpham?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+ window.open('https://www.linkedin.com/in/ryantpham/'
  , '_blank');
     });
 
