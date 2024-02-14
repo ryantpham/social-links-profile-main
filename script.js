@@ -12,16 +12,16 @@ document.getElementById('mentor').addEventListener('click', function() {
     });
 
 //Instagram and Twitter button - changes the text when hovered over
-document.getElementById('instagramButton').addEventListener('mouseenter', function() {
-    this.textContent = 'Demo Only';
+document.getElementById('portfolio').addEventListener('mouseenter', function() {
+    this.textContent = 'Work in Progress';
 });
-document.getElementById('instagramButton').addEventListener('mouseleave', function() {
-    this.textContent = 'Instagram';
+document.getElementById('portfolio').addEventListener('mouseleave', function() {
+    this.textContent = 'Portfolio';
 });
 
-document.getElementById('twitterButton').addEventListener('mouseenter', function() {
-    this.textContent = 'Demo Only';
+document.getElementById('resume').addEventListener('mouseenter', function() {
+    this.textContent = 'Work in Progress';
 });
-document.getElementById('twitterButton').addEventListener('mouseleave', function() {
-    this.textContent = 'Twitter';
+document.getElementById('resume').addEventListener('mouseleave', function() {
+    this.textContent = 'Resume';
 });
