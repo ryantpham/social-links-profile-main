@@ -15,24 +15,13 @@ document.getElementById('mentor').addEventListener('click', function() {
 document.getElementById('portfolio').addEventListener('mouseenter', function() {
     this.textContent = 'Work in Progress';
 });
-<<<<<<< HEAD
 document.getElementById('portfolio').addEventListener('mouseleave', function() {
     this.textContent = 'Portfolio';
-=======
-document.getElementById('instagramButton').addEventListener('mouseleave', function() {
-    this.textContent = 'Resume';
->>>>>>> 61e721ff176f6d9b9d227908124177bb1406f3fc
 });
 
 document.getElementById('resume').addEventListener('mouseenter', function() {
     this.textContent = 'Work in Progress';
 });
-<<<<<<< HEAD
 document.getElementById('resume').addEventListener('mouseleave', function() {
     this.textContent = 'Resume';
 });
-=======
-document.getElementById('twitterButton').addEventListener('mouseleave', function() {
-    this.textContent = 'Portfolio';
-});
->>>>>>> 61e721ff176f6d9b9d227908124177bb1406f3fc
